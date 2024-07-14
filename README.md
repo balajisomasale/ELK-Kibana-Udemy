@@ -64,5 +64,8 @@ Github: https://github.com/codingexplained/data-visualization-with-kibana
 curl the file from local machine
 - start from 10 th video : 5 min : https://coralogix.udemy.com/course/data-visualization-with-kibana/learn/lecture/22839825#overview
 
+`curl -k -u elastic -H "Content-Type:application/x-ndjson" -XPOST https://localhost:9200/_bulk --data-binary "@orders.bulk.ndjson"`
 
+not working in windows 
 
+Elastic Endpoint: https://b24627e57ce24ef7acab096a015e3a65.us-central1.gcp.cloud.es.io
